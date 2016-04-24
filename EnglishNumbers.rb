@@ -9,9 +9,9 @@ def englishNumber number
 
   numString = ""
 
-  onesPlace = [one, two, three, four, five, six, seven, eight, nine]
-  tensPlace = [ten, twenty, thirty, forty, fifty, sixty, seventy, eighty, ninety]
-  teenPlace = [eleven, twelve, thirteen, fourteen, fifteen, sixteen, seventeen, eighteen, nineteen]
+  onesPlace = ["one", "two", "three", "four", "five", "six", "seven", "eight", "nine"]
+  tensPlace = ["ten", "twenty", "thirty", "forty", "fifty", "sixty", "seventy", "eighty", "ninety"]
+  teenPlace = ["eleven", "twelve", "thirteen", "fourteen", "fifteen", "sixteen", "seventeen", "eighteen", "nineteen"]
 
   left = number
   write = left/100
