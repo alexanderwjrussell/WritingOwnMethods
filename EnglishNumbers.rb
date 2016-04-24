@@ -20,10 +20,10 @@ def englishNumber number
 
   if write > 0
     hundreds = englishNumber write
-    numString = numString hundreds + " hundred"
+    numString = numString + hundreds + " hundred"
 
     if left > 0
-      numString = numString + " "
+      numString = numString + "-"
     end
   end
 
@@ -39,7 +39,7 @@ def englishNumber number
     end
 
     if left > 0
-      numString = numString + '-'
+      numString = numString + "-"
     end
   end
 
@@ -50,7 +50,8 @@ def englishNumber number
     numString = numString + onesPlace[write-1]
   end
 
-  puts numString
+  numString
+
 end
 
 puts englishNumber(  0)
