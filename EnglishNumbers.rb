@@ -38,6 +38,32 @@ if write > 0
     numString = numString + tensPlace[write-1]
   end
 
+  if left > 0
+    numString = numString + '-'
+    end
+  end
+
+  write = left
+  left  = 0
+
+  if write > 0
+    numString = numString + onesPlace[write-1]
+  end
+
+  numString
 end
 
-puts englishNumber(0)
+puts englishNumber(  0)
+puts englishNumber(  9)
+puts englishNumber( 10)
+puts englishNumber( 11)
+puts englishNumber( 17)
+puts englishNumber( 32)
+puts englishNumber( 88)
+puts englishNumber( 99)
+puts englishNumber(100)
+puts englishNumber(101)
+puts englishNumber(234)
+puts englishNumber(3211)
+puts englishNumber(999999)
+puts englishNumber(1000000000000)
